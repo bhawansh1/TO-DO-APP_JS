@@ -1,0 +1,249 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #FEE715FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #101820FF;
+}
+
+li {
+    float: left;
+    color: white;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+
+#addBtn {
+    float: right;
+    cursor: pointer;
+}
+
+.navs {
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#addBtn>button {
+    background-color: #FEE715FF;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* #addBtn>button>img {
+    position: relative;
+    top: 20%;
+} */
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    /* border: 2px solid whiste; */
+    width: 25%;
+    background-color: #101820FF;
+    border-radius: 10px;
+    color: white;
+}
+
+#modal>p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#modalInput {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.modalBtn {
+    margin-top: 10px;
+}
+
+#modalBtn1 {
+    margin: 5px;
+    background-color: #101820FF;
+    font-size: 20px;
+}
+
+#modalBtn2 {
+    margin: 5px;
+    background-color: #101820FF;
+    font-size: 20px;
+}
+
+.itemsList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.items {
+    width: 250px;
+    margin-bottom: 60px;
+    border: 8px solid #101820FF;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#hr {
+    height: 4px;
+    background-color: black;
+}
+
+.itemsInsideItem {
+    padding: 4px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.headings {
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.markBtnInsideItem {
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items1 {
+    height: 260px;
+    overflow: auto;
+}
+
+.buttons {
+    border: none;
+    color: white;
+    padding: 15px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline: 2px;
+}
+
+#btnInsideItem1 {
+    background-color: #4CAF50;
+}
+
+#btnInsideItem2 {
+    background-color: #008CBA;
+}
+
+#modal2 {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    /* border: 2px solid whiste; */
+    width: 25%;
+    background-color: #101820FF;
+    border-radius: 10px;
+    color: white;
+}
+
+#modal2>p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#modalInput2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.modalBtn2 {
+    margin-top: 10px;
+}
+
+#modalBtn21 {
+    margin: 5px;
+    background-color: #101820FF;
+    font-size: 20px;
+}
+
+#modalBtn22 {
+    margin: 5px;
+    background-color: #101820FF;
+    font-size: 20px;
+}
+
+#msgDiv {
+    color: white;
+    background-color: rgb(164, 236, 109);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    top: 7%;
+    left: 25%;
+    position: absolute;
+    display: none;
+    color: white;
+}
+
+#modal3 {
+    display: none;
+}
+
+.buttons3 {
+    border: none;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    border: 5px solid white;
+    background-color: #101820FF;
+    color: white;
+}
+
+#itemsListFullView {
+    justify-content: center;
+    margin: 50px;
+}
+
+#modalBtn31 {
+    margin-left: 300px;
+}
+
+#modalBtn32 {
+    float: right;
+    margin-right: 300px;
+}
+
+#emptyDiv {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 45px;
+    color: #101820FF;
+    margin-top: 40px;
+    word-spacing: 9px;
+}

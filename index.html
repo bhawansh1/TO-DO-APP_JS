@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./task.css">
+
+</head>
+
+<body>
+    <div id="msgDiv">
+        <span id="msg"></span>
+    </div>
+
+    <div id="modal">
+        <p>Add New List</p>
+        <input type="text" placeholder="Enter" id="modalInput">
+        <div class="modalBtn">
+            <button type="button" id="modalBtn1" class="buttons">ADD</button>
+            <button type="button" id="modalBtn2" class="buttons">CLOSE</button>
+        </div>
+    </div>
+
+    <div id="modal2">
+        <p>Add New Item</p>
+        <input type="text" placeholder="Enter" id="modalInput2">
+        <div class="modalBtn2">
+            <button type="button" id="modalBtn21" class="buttons">ADD</button>
+            <button type="button" id="modalBtn22" class="buttons">CLOSE</button>
+        </div>
+    </div>
+
+
+    <div id="modal3">
+        <ul class="modal3ul">
+            <li type="button" id="modalBtn31" class="buttons3">Back</li>
+            <li type="button" id="modalBtn32" class="buttons3">Add</li>
+        </ul>
+        <div class="itemsList itemsList3" id="itemsListFullView">
+
+        </div>
+    </div>
+
+    <div id="firstDiv">
+
+        <div>
+            <ul>
+                <li class="navs">Task List</li>
+                <li id="addBtn" class="navs" type="button"> Add New </li>
+            </ul>
+        </div>
+
+        <div id="emptyDiv">No Items in Your To Do List</div>
+
+        <div class="itemsList" id="itemsList">
+            <!-- <div class="items" id="items">
+                <p class="headings">Trip to Bhutan</p>
+                <hr id="hr">
+                <div class="items1">
+                    <div class="itemsInsideItem">
+                        <span class="itemsInsideItem">Team Meet </span>
+                        <button type="button" class="markBtnInsideItem">Mark</button>
+                    </div>
+                    <div class="itemsInsideItem">
+                        <span class="itemsInsideItem ">Team Meet </span>
+                        <button type="button" class="markBtnInsideItem">Mark</button>
+                    </div>
+                </div>
+
+                <div class="btnInsideItem">
+                    <button type="button" id="btnInsideItem1" class="buttons">More</button>
+                    <button type="button" id="btnInsideItem2" class="buttons">Delete</button>
+                </div>
+
+
+            </div> -->
+        </div>
+        <script src="./task.js"></script>
+</body>
+
+</html>
